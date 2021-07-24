@@ -8,4 +8,4 @@ Users will first enter location details on the UI that utilizes Bulma and Modals
 
 ## UI View
 
-##Link
+## Link
