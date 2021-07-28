@@ -1,4 +1,4 @@
-var weather;
+// var weather;
 
  var api = 'http://api.openweathermap.org/data/2.5/weather?q=' ;
  var apiKey = '&appid=d196b19dfff57ff2ede0751c52d064e0';
