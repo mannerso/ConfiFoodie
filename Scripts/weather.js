@@ -6,7 +6,6 @@
  var input;
 
  function setup() {
-    createCanvas(400,200) ;
 
     var button = select ('#submit');
     button.mousePressed(findWeather);
