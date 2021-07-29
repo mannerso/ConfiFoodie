@@ -25,10 +25,9 @@ function findWeather() {
           return response.json();
         })
         .then(function(data) {
-          console.log(data);
+          console.log(url);
         });
-      
-    console.log (url)
+    
     // loadJSON (url, gotData) ;
  
 }
