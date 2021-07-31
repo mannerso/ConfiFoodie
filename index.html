@@ -128,8 +128,8 @@
 
             <div class="content"> Eventually you will --
                 <p>
-                    <button class="button is-warning is-large modal-button is-1-mobile"
-                        data-target="modal-ter" aria-haspopup="true">Click here to start your journey!</button>
+                    <!-- <button class="button is-warning is-large modal-button is-1-mobile"
+                        data-target="modal-ter" aria-haspopup="true">Click here to start your journey!</button> -->
                 </p>
             </div>
 
@@ -147,17 +147,19 @@
                 <h1 class="title">Enter Your Location Here</h1>
                 <h2 class="subtitle">
                     <!-- Option for a City Label Entry  -->
-                    To generate the weather
+                    What City Are You In?
                     <div class="findWeather">
                         <label class="label">City</label>
-                        <input id="#city"> 
-                        <button class="submit">Submit</button> 
+                        <form id="searchField">
+                            <input type="text" id="city"><input type="submit" id="searchButton" value="Submit">
+                        </form>
+                        <!-- <input type="text" id="submitField" >
+                    <button class="submit">Submit</button>  -->
                         <div class="control">
                         </div>
                         <p class="card-footer-item"></p>
 
                         <!-- <button class="submit">Submit</button> -->
-
                         </p>
                     </div>
 
@@ -189,7 +191,7 @@
             <h1 class="title">Generating Our Best Suggestion</h1>
             <h2 class="subtitle">
 
-
+                <div id="weatherTemp">Weather will go here</div>
 
 
                 <img class="card-img-top"
