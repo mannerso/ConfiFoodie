@@ -10,23 +10,23 @@
     var button = select ('#submit');
     button.mousePressed(findWeather);
 
-     input = select('#city');
+     <input=select('#city')> <input>
 
 } 
    document.getElementById('submit').addEventListener ('click', findWeather());
 
 function findWeather() {
     var url= api + input.value() + apiKey + units;
-    
+}
     fetch(
-        url
-      )
-        .then(function(response) {
+      'http.api.openweathermap.org/data/2.5/weather?q='
+      ,
+        then(function(response) {
           return response.json();
         })
         .then(function(data) {
           console.log(url);
-        });
+        }
     
     // loadJSON (url, gotData) ;
  
